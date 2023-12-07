@@ -40,7 +40,7 @@ body  > div {
  
 }
 #entete {
-   
+   z-index : 10;
 }
 
 body > div > section,
