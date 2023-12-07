@@ -1,0 +1,27 @@
+
+/* chacune des lignes du footer */
+#contact footer > div{
+    display: flex;
+
+}
+
+/* Conteneur de la  première ligne */
+.footer__1 {
+background-color: #aaa;
+
+}
+
+/* Conteneur de la deuxième ligne */
+.footer__2 {
+    background-color: #292424;
+
+}
+/* chacune des section du footer */
+#contact footer section {
+    border : 1px solid #aaa;
+    flex: 0 1 31%;
+}
+
+.footer__adresse{}
+.footer__icone{}
+.footer__texte{}
