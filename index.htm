@@ -20,8 +20,10 @@
                 https://www.canva.com/templates/?query=logo  
             -->
         <img src="" alt="" />
-
-        <h1>TP2</h1>
+        <figure class="logo">
+          <img src="image/favicon.ico" alt="" class="logo__img">
+        </figure>
+        <h1>Dr Sestier</h1>
         <!-- https://svgbox.net/ -->
         <!--
                 id peut être utilisée une seule fois dans le document
@@ -46,6 +48,12 @@
           <a href="#horaire">Horaire</a>
           <a href="#inscription">Inscription</a>
           <a href="#galerie">Galerie</a>
+<hr>
+          <p>Consultation en cardiologie ou en expetise médical</p>
+          <p>1851 Sherbrooke street East, Suite 901</p>
+          <p>Téléphone: 514-738-6476</p>
+          <p>Fax: 514-738-2333</p>
+          <p>Courriel: drsestier@hotmail.com</p>
         </nav>
       </header>
     </div>
@@ -138,18 +146,24 @@
         <h2>Inscription</h2>
         <!-- https://www.w3schools.com/html/html_forms.asp -->
         <form action="" class="formulaire">
-          <label class="form__nom" for="">Nom<input type="text" /></label>
-          <label class="form__prenom" for="">Nom<input type="text" /></label>
+          <label class="form__nom" for="">Nom</label>
+          <input type="text">
+          <label class="form__prenom" for="">Nom</label>
+          <input type="text">
           <fieldset class="langage">
             <legend>Langage</legend>
-            <label for="chk__html"
-              >HTML<input id="chk__html" type="checkbox" id=""
-            /></label>
-            <label for="">CSS<input type="checkbox" id="" /></label>
-            <label for="">JS<input type="checkbox" id="" /></label>
-            <label for="">PHP<input type="checkbox" id="" /></label>
-            <label for="">MySQL<input type="checkbox" id="" /></label>
-            <label for="">Wordpress<input type="checkbox" id="" /></label>
+            <label for="chk__html">HTML</label>
+            <input id="chk__html" type="checkbox" >
+            <label for="chk__css">CSS</label>
+            <input type="checkbox" id="chk__css" />
+            <label for="chk__js">JS</label>
+            <input type="checkbox" id="chk__js" />
+            <label for="chk__php">PHP</label>
+            <input type="checkbox" id="chk__php" />
+            <label for="chk__mysql">MySQL</label>
+            <input type="checkbox" id="chk__mysql" />
+            <label for="chk__wp">Wordpress</label>
+            <input type="checkbox" id="chk__wp" />
           </fieldset>
           <fieldset>
             <!-- Pour les radio bouton on créé un groupe en utilisant
@@ -161,6 +175,12 @@
             <input type="radio" name="age" id="rad__2" />
             <label for="rad__3">21-25</label>
             <input type="radio" name="age" id="rad__3" />
+            <label for="rad__4">21-25</label>
+            <input type="radio" name="age" id="rad__4" />
+            <label for="rad__5">26-30</label>
+            <input type="radio" name="age" id="rad__5" />
+            <label for="rad__6">31-35</label>
+            <input type="radio" name="age" id="rad__6" />
           </fieldset>
         </form>
       </section>
