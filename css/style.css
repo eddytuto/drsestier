@@ -21,6 +21,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  overflow-x: hidden;
 }
 
 /*
@@ -58,7 +59,19 @@ body > div > header {
 body > div > header {
  background-color:transparent; /* blanchir la couleur */
 } 
+
+.entete__logo {
+  flex : 1 1 100px;
 }
+
+.logo__img {
+  width : 100%;
+}
+
+.entete__titre{
+   flex : 0 1 auto;
+}
+
 
 body > div > section {
   padding-top: 100px;
