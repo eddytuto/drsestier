@@ -57,7 +57,9 @@ body > div > header {
 }
 
 body > div > header {
- background-color:transparent; /* blanchir la couleur */
+ background-color:transparent; /* blanchir la couleur */ 
+ flex-wrap: wrap;
+ gap: 10px;
 } 
 
 .entete__logo {
@@ -78,9 +80,6 @@ body > div > section {
   flex-direction: column;
 }
 
-body > div > header {
- 
-}
 
 body > div > section {
   min-height: 100vh;
