@@ -61,7 +61,7 @@ body > div > header {
 } 
 
 .entete__logo {
-  flex : 1 1 100px;
+  flex : 0 1 100px;
 }
 
 .logo__img {
